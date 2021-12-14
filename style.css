@@ -222,7 +222,7 @@ p3{
 p4{
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 25px;
 }
 p5{
   font-family: 'Raleway', sans-serif;
@@ -472,7 +472,8 @@ p5{
   color: white;
   padding-left: 20px;
   padding-right: 150px;
-  padding-bottom: 5px;
+  padding-top: 80px;
+  padding-bottom: 0px;
 
 }
 
@@ -491,6 +492,7 @@ p5{
     top: 0%;
     left:0%;
     bottom: 0%; 
+    
   }
   
 }

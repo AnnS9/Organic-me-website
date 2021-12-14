@@ -160,7 +160,12 @@ color: rgb(201, 198, 198);
   margin-top: 100px !important;
   margin-bottom: 100px !important;
 }
-
+.infoh{
+  font-family: Raleway; 
+  font-weight: 250;
+  font-size: 25px;
+  color: #d4d4d1 !important;
+}
 h1{
   font-family: Bree; 
   font-weight: 350;
@@ -196,46 +201,44 @@ h6{
   font-size: 60px;
   color: #1a1806 !important;
 }
-h7{
-  font-family: Raleway; 
-  font-weight: 250;
-  font-size: 55px;
-}
 
-p1{
+
+.head-p{
   font-family: 'Raleway', sans-serif;
   color: #727270;
   font-weight: 450;
   font-size: 25px;
 }
-p2{
+.green-p{
   font-family: Bree; 
   font-weight: 350;
   font-size: 28px;
   color: #619734;
 }
-p3{
+.welcome-p{
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   color: #969e98 !important;
 }
-p4{
+.gard-p{
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 25px;
 }
-p5{
+.icon-p{
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   color: #969e98 !important;
   margin-left: 10pt;    
 }
-p6{
+.addres-p{
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 15px;
 }
-
+.item-p{
+  font-size: 18px;
+}
 .btn-warning{
  background-color:#DCB141 !important;
 }

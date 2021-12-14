@@ -470,7 +470,7 @@ h6{
 /* Bottom right text */
 #gcourse {
   position: absolute;
-  top: 20%;
+  top: 0%;
   left: 25%;
   background-color: rgba(0, 0, 0, 0.5);;
   color: white;
@@ -485,18 +485,21 @@ h6{
 @media screen and (max-width: 540px) {
   #gimg {
       width: 390px;
-      margin-left:0%;
+      margin-left:10%;
       overflow: hidden;
 
      
   }
   #gcourse{
-    padding-bottom: 0%;
+    padding-bottom: 20%;
     padding-right: auto;
-    top: 0%;
+    top: 10%;
     left:0%;
-    bottom: 0%; 
+    bottom: 10%; 
     
+  }
+  .gard-p{
+    font-size: 15px;
   }
   
 }

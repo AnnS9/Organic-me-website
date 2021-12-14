@@ -480,12 +480,14 @@ p5{
 @media screen and (max-width: 540px) {
   #gimg {
       width: 390px;
-      margin: auto;
+      margin-left:0%;
+      overflow: hidden;
+
      
   }
   #gcourse{
     padding-bottom: 0%;
-    padding-right: 50px;
+    padding-right: auto;
     top: 0%;
     left:0%;
     bottom: 0%; 

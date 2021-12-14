@@ -372,7 +372,7 @@ p5{
 
 
 
-.
+
 
 
 .newsletter-subscribe form {
@@ -428,14 +428,14 @@ p5{
     margin-top: 10%;
     object-fit: fill;
   }
-  /* For Xl screens */
+ 
 
   #suptxt{
     
     margin-bottom: 50pt;
     margin-top: 70pt; 
   }
- #icon1{
+#icon1{
    margin-left: 15%;
  } 
 #icon2{

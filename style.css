@@ -110,8 +110,8 @@ overflow: hidden;
 }
 
 #bee1{
-  margin-top: 30%;
-  margin-left: 10%;
+  margin-top: 28%;
+  margin-left: 15%;
   width: 100px;
   height: auto;
   position: relative;
@@ -211,12 +211,12 @@ p1{
 p2{
   font-family: Bree; 
   font-weight: 350;
-  font-size: 18px;
+  font-size: 22px;
   color: #619734;
 }
 p3{
   font-family: 'Raleway', sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   color: #969e98 !important;
 }
 p4{

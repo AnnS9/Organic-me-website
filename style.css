@@ -425,10 +425,11 @@ p5{
   #video1{
    
     width:100%;
-    margin-top: 30%;
+    margin-top: 10%;
     object-fit: fill;
   }
-  
+  /* For Xl screens */
+
   #suptxt{
     
     margin-bottom: 50pt;

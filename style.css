@@ -160,18 +160,17 @@ color: rgb(201, 198, 198);
   margin-top: 100px !important;
   margin-bottom: 100px !important;
 }
+
 h1{
-    font-family: Raleway; 
-    font-weight: 250;
-    font-size: 55px;
+  font-family: Bree; 
+  font-weight: 350;
+  font-size: 65px;
+  color: #345a15;
 }
 h2{
     font-family: Raleway; 
-    
     font-weight: 250;
-    font-size: 55px;
-    
-    
+    font-size: 55px;   
 }
 h3{
   font-family: Raleway; 
@@ -188,7 +187,7 @@ h4{
 h5{
     font-family: Raleway; 
     font-weight: 350;
-    font-size: 30px;
+    font-size: 25px;
 }
 h6{
   font-family: bree, sans-serif;
@@ -198,30 +197,26 @@ h6{
   color: #1a1806 !important;
 }
 h7{
-  font-family: Bree; 
-  font-weight: 350;
-  font-size: 65px;
-  color: #345a15;
+  font-family: Raleway; 
+  font-weight: 250;
+  font-size: 55px;
 }
-h8{
-  font-family: Bree; 
-  font-weight: 350;
-  font-size: 65px;
-  color: #edf0ea;
-}
+
 p1{
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  color: #d8db16;
+  font-weight: 450;
 }
 p2{
-  font-family: 'Raleway', sans-serif;
-  font-size: 25px;
-  color: #969e98 !important;
+  font-family: Bree; 
+  font-weight: 350;
+  font-size: 18px;
+  color: #619734;
 }
 p3{
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
   color: #969e98 !important;
-  
 }
 p4{
   font-family: "Roboto", sans-serif;
@@ -234,17 +229,8 @@ p5{
   color: #969e98 !important;
   margin-left: 10pt;    
 }
-p6{
-  font-family: Bree; 
-  font-weight: 350;
-  font-size: 18px;
-  color: #619734;
-}
-p7{
-  font-family: 'Raleway', sans-serif;
-  color: #d8db16;
-  font-weight: 450;
-}
+
+
 .btn-warning{
  background-color:#DCB141 !important;
 }
@@ -529,6 +515,10 @@ p7{
     
     
   }
+  #footern{
+    color: #f8f8f8;
+    font-size: 45px;
+  }
   .fa-facebook{
     color: rgb(255, 253, 253);
     
@@ -541,7 +531,10 @@ p7{
     color: rgb(255, 253, 253);
     
   }
-  
+  .footer-bottom__copyright{
+    font-family: Raleway;
+    font-size: 15px;
+  }
  
 
 

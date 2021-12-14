@@ -150,31 +150,34 @@
         <h5>SPECIAL OFFER FOR OUR SUBSCRIBERS</h5>
           <h4>Get 10% off your shopping</h4>
             <p2>Subscribe our newsletter and all latest news of our products, promotion and offers</p2><br><br>
-              <a class="btn rounded-pill btn-md btn-warning btn-outline-light " data-bs-toggle="modal" data-bs-target="#exampleModal" id= "button2" href="#" role="button">Subscribe</a>
+              <a class="btn rounded-pill btn-md btn-warning btn-outline-light " data-bs-toggle="modal" data-bs-target="#newsletterModal" id= "button2" href="#" role="button">Subscribe</a>
     </div>
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <p1 class="modal-title" id="exampleModalLabel">NEWSLETTER</p1>
+              
+                <p2 class="text-center newsletter">Subscribe to our Newsletter</p2>
+                
+              
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
               <div class="modal-body">
-              <form name="contact" method="POST" data-netlify="true">
-                  <form action="/action_page.php" class="form-container" >
-                    
+              
+                <div class="newsletter-subscribe mt-3 container">
+                  <div class="container">
+                      
+                      <form class="form-inline" method="post" data-netlify="true">
+                          <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
+                          <div class="form-group"><button class="btn rounded-pill btn-sm btn-warning btn-outline-light mt-3" type="button">Subscribe </button></div>
+                      </form>
+                  </div>
               </div>
-              <div class="container">
-                <div class="modal-footer">
-                  <a type="button submit" class="btn rounded-pill btn-sm btn-warning btn-outline-light " id= "button3" >Submit</a>
-                </div>
-              </form>
-                
-            </div>
+              </div>
           </div>
         </div>
-  </div>
-   
+      </div>
+   </div>
 </section>
 <!--SUPLIERS-->
 <section id="supliers">

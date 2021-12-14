@@ -78,7 +78,7 @@ li{
   animation-delay: 1s;
   animation-fill-mode: both;
   overflow: hidden;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.02);
 }
 #slide-img1{
   width: 550px;
@@ -187,7 +187,7 @@ h4{
 }
 h5{
     font-family: Raleway; 
-    font-weight: 250;
+    font-weight: 350;
     font-size: 30px;
 }
 h6{
@@ -392,12 +392,14 @@ p7{
   #suptxt{
     
     margin-bottom: 50pt;
-    margin-top: 70pt;
-    
-    
-    
+    margin-top: 70pt; 
   }
-
+ #icon1{
+   margin-left: 15%;
+ } 
+#icon2{
+  margin-left: 15%;
+}
  
 #course {
   background-color: rgb(233, 240, 227);

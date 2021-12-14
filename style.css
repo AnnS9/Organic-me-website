@@ -471,7 +471,7 @@ h6{
 #gcourse {
   position: absolute;
   top: 0%;
-  left: 25%;
+  left: 20%;
   background-color: rgba(0, 0, 0, 0.5);;
   color: white;
   padding-left: 20px;
@@ -529,10 +529,10 @@ h6{
   #gcourse{
     
     top: 20%;
-    left:30%;
+    left:20%;
     bottom: 10%;
     padding-bottom: 0%; 
-    padding-right: 180px;
+    padding-right: 280px !important;
   }
 }
 

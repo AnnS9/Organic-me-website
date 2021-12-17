@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Organic Me</title>
+    <link rel="icon" type="image/x-icon" href="/img/logoicon2.png">
     <link rel="stylesheet" href="https://use.typekit.net/dcj5saj.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,45 +17,287 @@
 <body>
 <!--NAVBAR-->    
     
-    <nav class="navbar navbar-expand-lg menu shadow fs-4 bg-warning navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="/img/logo.png" alt="logo" width="80" height="80" id="logo">
-            </a>
-            <button 
-              class="navbar-toggler" 
-              type="button" 
-              data-bs-toggle="collapse" 
-              data-bs-target="#navmenu"
-              aria-controls="navmenu" 
-              aria-expanded="false" 
-              aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-            </button>
+      
+    
+    <nav class="navbar navbar-expand-lg menu shadow fs-4 bg-warning navbar-dark ">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">
+              <img src="/img/logo3.png" alt="logo" width="90" height="90" id="logo">
+          </a>
+          <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu"
+            aria-controls="navmenu" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <div class="collapse navbar-collapse " id="navmenu">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link ">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="about.html" class="nav-link active">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="cafe.html" class="nav-link">Café</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="shop.html" class="nav-link">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-            </div>    
+          <div class="collapse navbar-collapse " id="navmenu">
+                  <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                          <a href="index.html" class="nav-link ">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="about.html" class="nav-link active">About us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="cafe.html" class="nav-link">Café</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="shop.html" class="nav-link">Shop</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="contact.html" class="nav-link">Contact</a>
+                      </li>
+                  </ul>
+          </div>    
+      </div>
+  </nav>
+
+<!--HERO-->
+<div class="container-fluid">
+<div id="demo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      
+      <img src="img/heroa1.jpg" alt="slide1" class="d-block w-100" id="hero-img1">
+      <div class="centered text-center">
+        <img src="img/logoicon.png" style="width: 80px; height:auto" alt="icon1" id="logoicon"><br>
+        <p class="hero-txt1">More to know <br></p>
+         <p class="hero-txt2">About Us</p>
         </div>
-    </nav>
+    </div>
+    <div class="carousel-item">
+      <img src="img/heroa3.jpg" alt="slide2" class="d-block w-100" id="hero-img1">
+      <div class="centered text-center">
+        <img src="img/logoicon.png" style="width: 80px; height:auto" alt="icon1" id="logoicon"><br>
+        <p class="hero-txt1">More to know <br></p>
+         <p class="hero-txt2">About Us</p>
+        </div>
+      </div>
+    
+    <div class="carousel-item">
+      <img src="img/heroa2.jpg" alt="slide3" class="d-block w-100" id="hero-img1">
+      <div class="centered text-center">
+        <img src="img/logoicon.png" style="width: 80px; height:auto" alt="icon1" id="logoicon"><br>
+        <p class="hero-txt1">More to know <br></p>
+         <p class="hero-txt2">About Us</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</div>
+<!--INTRO-->
+
+<div class="row pt-5" >
+  <div class="col justify-content-center text-center ">
+    <div class="img-with-text ">
+      <img src="img/icon1.svg" style="width: 80px; height: 77px" alt="icon1" id="icon4" >
+      <br><p class="icon-p">Ecological<br>Lorem ipsum dolor sit amet,<br>  consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+    </div>
+  </div>
+  <div class="col justify-content-center text-center ">
+    <div class="img-with-text">
+      <img src="img/icon3.svg" style="width: 80px; height:auto" alt="icon2" id="icon5">
+      <br><p class="icon-p">Sustainable<br>Lorem ipsum dolor sit amet,<br>  consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+    </div>
+  </div>
 
 
+  <div class="col justify-content-center text-center ">
+    <div class="img-with-text">
+      <img src="img/icon2.svg" style="width: 80px; height:auto" alt="icon6" >
+      <br><p class="icon-p">Organic<br>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+    </div>
+  </div>
+
+</div> 
+
+<!--INFO ABOUT-->
+<div class="container justify-content-center text-center text-secondary" id="aboutinfo">
+  <h2>Modern Farming</h2>
+    <p class="welcome-p">We are Kelso based Organic Café and Shop selling fresh certified organic foods, groceries,  household cleaning
+   products and local handicraft. Offering our customers the highest quality products, we support local, sustainable produce.</p>
+
+
+  </div>
+<!--SUPPLIERS-->
+  <div class="container-fluid" id="supimg">
+    <img src="img/sup1.jpg" style="width:100%; height:auto">
+      <div class="left-text">MEET OUR SUPPLIERS</div>
+
+
+  </div>
+
+  <div class="row py-5" >
+    <div class="col-sm-6 px-5 ">
+      <img src="img/mark.jpg" style="width:100%; height:auto">
+        
+    </div>
+    <div class="col-sm-6 text-secondary px-5">
+      
+        <h2 class= "supplier-h2">Mark Frost</h2>
+          <hr class="d-inline-block mb-5" style="width: 250px; height: 2px;"><br>
+            <p class="welcome-p mr-3" >We work with local suppliers who share the same commitment to sustainability and quality as we do. 
+                  Our suppliers are focused on animal welfare with appropriate use of the land as far as is possible and a strong emphasis on protecting the environment.
+              </p><br><br>
+    </div>
+  </div>
+  <div class="row py-5" >
+    <div class="col-sm-6 text-secondary px-5" id="suplier2">
+      <h2 class= "supplier-h2">Sara McDonald</h2>
+          <hr class="d-inline-block mb-5" style="width: 250px; height: 2px;"><br>
+            <p class="welcome-p mr-3" >We work with local suppliers who share the same commitment to sustainability and quality as we do. 
+                  Our suppliers are focused on animal welfare with appropriate use of the land as far as is possible and a strong emphasis on protecting the environment.
+              </p><br><br>
+            </div>
+    <div class="col-sm-6 px-5">
+      <img src="img/sara.jpg" style="width:100%; height:auto">
+                  
+    </div>
+  </div>
+  <div class="row py-5" >
+    <div class="col-sm-6 px-5 ">
+      <img src="img/rick.jpg" style="width:100%; height:auto">
+        
+    </div>
+    <div class="col-sm-6 text-secondary px-5">
+      
+        <h2 class= "supplier-h2">Rick Munro</h2>
+          <hr class="d-inline-block mb-5" style="width: 250px; height: 2px;"><br>
+            <p class="welcome-p mr-3" >We work with local suppliers who share the same commitment to sustainability and quality as we do. 
+                  Our suppliers are focused on animal welfare with appropriate use of the land as far as is possible and a strong emphasis on protecting the environment.
+              </p><br><br>
+    </div>
+  </div>
+
+  <!--PARTNERS-->
+  <section class=" pb-5" id="info1">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 justify-content-center p-5" >
+                <h2 class="text-center text-secondary">How are we care about planet </h2>
+                <p class="welcome-p text-center">We are Kelso based Organic Café and Shop selling fresh certified organic foods, groceries,  household cleaning
+                  products and local handicraft. Offering our customers the highest quality products, we support local, sustainable produce.</p>
+               
+              </div>
+            
+
+<div class="col-12">
+  
+              <div class="row">
+
+                  <div class="col-md-4 mb-3">
+                      <div class="card">
+                          <img class="img-fluid" alt="100%x280" src="img/homethings.PNG">
+                          <div class="card-body">
+                              <h4 class="card-title">Homethings</h4>
+                              <p class="card-text">High quality organic cleaning products, main company goal it to recuce waste, be enviroment friendly and effective.</p>
+                              <a class="btn rounded-pill btn-md btn-warning btn-outline-light " id= "button1" href="https://gethomethings.com/pages/impact" role="button">Read More</a>
+           
+                          </div>
+
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                      <div class="card">
+                          <img class="img-fluid" alt="100%x280" src="img/ecover.PNG">
+                          <div class="card-body">
+                              <h4 class="card-title">ECO VER</h4>
+                              <p class="card-text">Revolutionary company, which believes in eco, sustainable living, with their laudry detergents, dishwashing liquids and other cleaning products </p>
+                              <a class="btn rounded-pill btn-md btn-warning btn-outline-light " id= "button1" href="https://www.ecoverdirect.com/" role="button">Read More</a>
+           
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                      <div class="card">
+                          <img class="img-fluid" alt="100%x280" src="img/one.PNG">
+                          <div class="card-body">
+                              <h4 class="card-title">ONE</h4>
+                              <p class="card-text">Water that makes difference. Their idea is:
+                                “You can't change a billion people's lives, but if you can change just One that's a definition of success</p>
+                                <a class="btn rounded-pill btn-md btn-warning btn-outline-light " id= "button1" href="https://theonefoundation.org.uk/" role="button">Read More</a>
+           
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</section>
+<!--NEWSLETTER-->
+<div class="container-fluid" id="newsabout">
+  
+<img src="img/news.jpg" style="width:100%; height:auto">
+<div class="text-block text-left" id="txtbox">
+  <div class="row">
+    <div class="col-8">
+      
+          <h1 class="newstxt ms-5">Sign up to our Newsletter ,<br>and receive 10%off your shopping</h1>
+  
+    </div>
+    
+    <div class="col-4"> 
+      <a class="btn rounded-pill btn-lg btn-dark btn-outline-light mt-5" data-bs-toggle="modal" data-bs-target="#newsletterModal" id= "button3" href="#" role="button">Subscribe</a>
+      <div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="newsletterModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              
+                <p class="green-p text-center newsletter">Subscribe our newsletter to get all promotions and offers</p>
+                
+              
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+              <div class="modal-body">
+              
+                <div class="newsletter-subscribe mt-3 container">
+                  <div class="container">
+                      
+                      <form name="contact" class="form-inline" method="post" data-netlify="true">
+                          <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email" required></div>
+                          <div class="form-group"><button class="btn rounded-pill btn-sm btn-warning btn-outline-light mt-3" type="submit" value="Send">Subscribe </button></div>
+                      </form>
+                  </div>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+</div>
+</div>
 
 
 <!--FOOTER-->
@@ -75,9 +318,9 @@
         <h5 class="text-capitalize">Follow us</h5>
         <hr class="d-inline-block mb-4" style="width: 60px; height: 2px;">
         <div class="col-lg-7 col-md-6">
-          <a href="www.facebook.com"><i class="fab fa-facebook fa-2x p-1"></i></a>
-          <a href="www.twitter.com"><i class="fab fa-twitter fa-2x p-1"></i></a>
-          <a href="www.instagram.com"><i class="fab fa-instagram fa-2x p-1"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x p-1"></i></a>
+          <a href="https://twitter.com/"><i class="fab fa-twitter fa-2x p-1"></i></a>
+          <a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x p-1"></i></a>
         </div>
       </div>
       <div class="col mb-4 mx-auto">
@@ -85,27 +328,27 @@
         <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;"><br>
         
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-        </svg><p4> 1 High Street<br>
+          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z">
+        </svg><p class="addres-p"> 1 High Street<br>
             Kelso, TD5 7AG<br>
-            Scottish Borders<br><br></p4>
+            Scottish Borders<br><br></p>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-            </svg><p4> +44 07123 456789</p4>
+            </svg><p class="addres-p"> +44 07123 456789</p>
         
       </div>
       <div class=" col mb-4 mx-auto">
         <h5 class="text-capitalize ">Opening Time</h5>
         <hr class="d-inline-block mb-4" style="width: 60px; height: 2px;"><br>
         
-          <p4>Mon-Sat 10-4pm<br>
-          Sun 12-4pm</p4>
+          <p class="addres-p">Mon-Sat 10-4pm<br>
+          Sun 12-4pm</p>
         
       </div>
     
   </div>
 </div>
-</div>
+
   <!-- START THE COPYRIGHT INFO  -->
   <div class="footer-bottom pt-2 pb-2">
     <div class="container">
@@ -119,7 +362,9 @@
     </div>
   </div>
   </div>
-
+</div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+
 </body>
 </html>

@@ -309,6 +309,22 @@ h6{
   
 }
 
+.ch-img-4{
+  background-image: url(img/granola.jpg);
+  width: 280px;
+	height: 280px;
+}
+.ch-img-5{
+  background-image: url(img/toast.jpg);
+  width: 280px;
+	height: 280px;
+
+}
+.ch-img-6{
+  background-image: url(img/cheese.jpg);
+  width: 280px;
+	height: 280px;
+}
 .ch-info {
 	position: absolute;
 	width: 100%;
@@ -621,6 +637,7 @@ h6{
 
 .card{
   background-color: #1D3011;
+  min-height: 400px;
 }
 .card-text{
   font-family: "Raleway";
@@ -660,13 +677,80 @@ h6{
   background-color: #5c5a5a !important;
   color: rgb(219, 219, 219);
 }
+#cafew{
+  background-image: url("img/bean.svg");
+  background-repeat: no-repeat;
+  background-size: 320px;
+  background-position: 0% 40%;
+  padding-top: 150px !important;
+  padding-bottom: 150px !important;
+}
+.text-left-cafe{
+  position: absolute;
+  top: 2%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+ 
+  
+}
+ .cafe-txt1{
+  font-family: "Bree";
+  font-size: 68px;
+  font-weight: 300;
+  color:#f6faf7;
+  margin-top: 150%;
+ }
+ .cafe-txt2{
+  font-family: "Bree";
+  font-size: 68px;
+  font-weight: 300;
+  color:#f6faf7;
+  margin-top: 110%;
+ }
+
+ .cafe-txt3{
+  font-family: "Bree";
+  font-size: 58px;
+  font-weight: 300;
+  color:#f6faf7;
+  margin-top: 30%;
+  margin-right: -80%;
+ }
+ .cafe-txt4{
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 300;
+  color:#f6faf7;
+  margin-top: 5%;
+  
+ }
+  .cafe-txt5{
+  font-family: "Bree";
+  font-size: 58px;
+  font-weight: 300;
+  color:#f6faf7;
+  margin-top: 50%;
+  margin-right: -80%;
+ }
+ @media screen and (min-width: 140px) and (max-width: 940px) {
+.cafe-txt1, .cafe-txt2, .cafe-txt3, .cafe-txt4, .cafe-txt5{
+  font-size: 20px;
+} 
+
+}
+
+#seasonal{
+  background: url("img/peas.svg") ,rgb(85, 85, 85);
+  background-repeat: no-repeat;
+  background-size: 270px;
+  background-position: 100% 40%;
+  
+}
 
 
-
-
-
-
-
+.seas-h2{
+  color: #dac934 !important;
+}
 
 
 

@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Organic Me</title>
+    <link rel="icon" type="image/x-icon" href="/img/logoicon2.png">
     <link rel="stylesheet" href="https://use.typekit.net/dcj5saj.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,43 +17,130 @@
 <body>
 <!--NAVBAR-->    
     
-    <nav class="navbar navbar-expand-lg menu shadow fs-4 bg-warning navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="/img/logo.png" alt="logo" width="80" height="80" id="logo">
-            </a>
-            <button 
-              class="navbar-toggler" 
-              type="button" 
-              data-bs-toggle="collapse" 
-              data-bs-target="#navmenu"
-              aria-controls="navmenu" 
-              aria-expanded="false" 
-              aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-            </button>
+      
+    
+    <nav class="navbar navbar-expand-lg menu shadow fs-4 bg-warning navbar-dark ">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">
+              <img src="/img/logo3.png" alt="logo" width="90" height="90" id="logo">
+          </a>
+          <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu"
+            aria-controls="navmenu" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <div class="collapse navbar-collapse " id="navmenu">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link ">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="about.html" class="nav-link">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="cafe.html" class="nav-link">Café</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="shop.html" class="nav-link active">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-            </div>    
-        </div>
-    </nav>
+          <div class="collapse navbar-collapse " id="navmenu">
+                  <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                          <a href="index.html" class="nav-link ">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="about.html" class="nav-link ">About us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="cafe.html" class="nav-link ">Café</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="shop.html" class="nav-link  active">Shop</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="contact.html" class="nav-link">Contact</a>
+                      </li>
+                  </ul>
+          </div>    
+      </div>
+  </nav>
+
+
+<!--HERO-->
+<div class="container-fluid" id="supimg">
+  <img src="img/shop.jpg" style="width:100%; height:auto">
+</div>
+<!--INTRO-->
+<div class="container-fluid text-secondary text-center" id="shopw">
+  <h2 class="shop-h2">Our Organic Shop</h2>
+    <p class="shop-p">We are Kelso based Organic Café and Shop selling fresh certified organic foods, groceries,  household cleaning
+     products and local handicraft. Offering our customers the highest quality products, we support local, sustainable produce.<br><br></bt></p>
+          
+ 
+  </div>
+<!--Products-->
+<section id="shop-product">
+  <div class="container">
+     <div class="text-center pt-3">
+       
+         <h2 class="prod-h2">Featured Products</h2><br>
+         
+          </div>
+     <div class="row pb-5 ">
+       <div class="col">
+           <div class="ch-item ch-img-7 mt-5 ">
+             <div class="ch-info text-center pt-5">
+               <h2 class="infoh">Local Handmade soap</h2>
+               <p class="item-p">10£ <a href="pdf/Price list.pdf" target="_blank">View more products</a></p>
+             </div>
+           </div>
+       </div>
+       <div class="col">
+           <div class="ch-item  ch-img-8 mt-5 ">
+             <div class="ch-info">
+               <div class="ch-info text-center pt-5">
+                 <h2 class="infoh">Organic Coconut Bowls and
+                  Spoons gift set </h2>
+                 <p class="item-p">20£ <a href="pdf/Price list.pdf" target="_blank">View more products</a></p>
+               </div>
+             </div>
+           </div>
+       </div>
+       <div class="col"> 
+           <div class="ch-item ch-img-9 mt-5 ">
+             <div class="ch-info text-center pt-5">
+               <h2 class="infoh">Scottish Chamomile tea</h2>
+               <p class="item-p">4£ <a href="pdf/Price list.pdf" target="_blank">View more products</a></p>
+               </div>
+           </div>
+       </div>
+     </div>
+     <p class=" text-center full-list">Check our full price list<br><br><a class="btn rounded-pill btn-lg btn-light btn-outline-light " id= "button1"  href="pdf/menu.pdf" target="_blank" role="button">Price List</a>
+     </p><br>
+     
+   </div>
+ </section>
+<!--HONEY-->
+
+
+  <video id="video2" class=" ratio ratio-16by9 py-5 " autoplay loop controls muted>
+    <source src="video/beey.mp4" type="video/mp4">Your browser does not support video tag</video>
+    
+
+
+<dic class="container">
+  <div class="row">
+    <div class="col-md-6 honey1">
+      <img src="img/bee2.svg" id="bee4" alt="bee">
+         </div>
+    <div class="col-md-6 text-center honey2 pe-5"> 
+      <p class="honey-p1">The taste of nature</p>
+             <h4 class="honey-h4 ">Organic Honey</h4>
+            
+              
+                <p class="honey-p2" >Raw Honey straight from our Organic ME apiaries. It's probably the finest honey in the world! </p><br>
+                <a class="btn rounded-pill btn-lg btn-warning btn-outline-light " id= "button1"  href="pdf/menu.pdf" target="_blank" role="button">Order Now</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
 
 
 
@@ -75,9 +163,9 @@
         <h5 class="text-capitalize">Follow us</h5>
         <hr class="d-inline-block mb-4" style="width: 60px; height: 2px;">
         <div class="col-lg-7 col-md-6">
-          <a href="www.facebook.com"><i class="fab fa-facebook fa-2x p-1"></i></a>
-          <a href="www.twitter.com"><i class="fab fa-twitter fa-2x p-1"></i></a>
-          <a href="www.instagram.com"><i class="fab fa-instagram fa-2x p-1"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x p-1"></i></a>
+          <a href="https://twitter.com/"><i class="fab fa-twitter fa-2x p-1"></i></a>
+          <a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x p-1"></i></a>
         </div>
       </div>
       <div class="col mb-4 mx-auto">
@@ -85,27 +173,27 @@
         <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;"><br>
         
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-        </svg><p4> 1 High Street<br>
+          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z">
+        </svg><p class="addres-p"> 1 High Street<br>
             Kelso, TD5 7AG<br>
-            Scottish Borders<br><br></p4>
+            Scottish Borders<br><br></p>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-            </svg><p4> +44 07123 456789</p4>
+            </svg><p class="addres-p"> +44 07123 456789</p>
         
       </div>
       <div class=" col mb-4 mx-auto">
         <h5 class="text-capitalize ">Opening Time</h5>
         <hr class="d-inline-block mb-4" style="width: 60px; height: 2px;"><br>
         
-          <p4>Mon-Sat 10-4pm<br>
-          Sun 12-4pm</p4>
+          <p class="addres-p">Mon-Sat 10-4pm<br>
+          Sun 12-4pm</p>
         
       </div>
     
   </div>
 </div>
-</div>
+
   <!-- START THE COPYRIGHT INFO  -->
   <div class="footer-bottom pt-2 pb-2">
     <div class="container">
@@ -119,7 +207,7 @@
     </div>
   </div>
   </div>
-
+</div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
 

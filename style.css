@@ -782,6 +782,17 @@ h6{
   padding-top: 150px !important;
   padding-bottom: 150px !important;
 }
+@media screen and (min-width: 140px) and (max-width: 940px) {
+  #shopw{
+    background:url("img/flower3.svg") ,#39403B;
+    background-repeat: no-repeat;
+     background-size: 220px;
+     background-position: 100% 40%;
+     padding-top: 150px !important;
+     padding-bottom: 150px !important;
+   }
+  
+  }
 .shop-h2{
   color: #e4e4e3  !important;
   font-family: Raleway; 
@@ -880,17 +891,60 @@ h6{
 #info2{
   background:  #39403B ;
 }
+.contact-h2{
+  
+  font-family: Raleway; 
+  font-weight: 250;
+  font-size: 55px;  
+  
+}
+.contact-p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.map-h2{
+  color: #a1a31b !important;
+  font-family: Raleway; 
+  font-weight: 350;
+  font-size: 35px !important;
+}
 
-
-
-
-
-
-
-
-
-
-
+.map-p{
+  color: #a1a31b !important;
+  font-family: Raleway; 
+  font-weight: 350;
+  font-size: 55px;
+}
+#contact-map{
+  background:  #39403B ;
+}
+.map-info{
+  color: #a1a19e !important;
+  font-size: 25px;
+}
+.c-form-h2{
+  font-family: Raleway; 
+  font-weight: 350;
+  font-size: 35px;
+}
+.c-form-p1{
+  
+  font-family: Bree; 
+  font-weight: 350;
+  font-size: 55px;
+  
+}
+.card-cont{
+  background-color: #f8f8f8 !important;
+  
+}
+.label-cont{
+  color: rgb(85, 83, 83);
+  
+}
 
 
 

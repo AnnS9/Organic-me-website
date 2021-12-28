@@ -891,6 +891,13 @@ h6{
 #info2{
   background:  #39403B ;
 }
+#contactw{
+  background-image: url("img/carrot.svg"), url("img/beet1.svg");
+  background-repeat: no-repeat;
+  background-size: 270px, 220px;
+  background-position: 80% 30%, 10% 90%;
+  
+}
 .contact-h2{
   
   font-family: Raleway; 
@@ -906,20 +913,22 @@ h6{
   padding-right: 20%;
 }
 .map-h2{
-  color: #a1a31b !important;
+  color: #E4DD99 !important;
   font-family: Raleway; 
   font-weight: 350;
   font-size: 35px !important;
 }
 
 .map-p{
-  color: #a1a31b !important;
+  color: #E4DD99 !important;
   font-family: Raleway; 
   font-weight: 350;
   font-size: 55px;
 }
 #contact-map{
-  background:  #39403B ;
+  background:#39403B;
+    
+     
 }
 .map-info{
   color: #a1a19e !important;

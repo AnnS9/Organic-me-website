@@ -129,14 +129,14 @@ Number of people in one group is limited to 8<br>
 
 <div class="container   d-flex flex-column">
  
-          <form role="form" class="row">
+          <form role="form" method="post" name="contact" data-netlify="true" class="row">
               <div class="form-group col-lg-4">
                   <label class="form-control-label label-cont" for="form-group-input">Name</label>
-                  <input type="text" class="form-control" id="form-group-input" name="name">
+                  <input type="text" class="form-control" id="form-group-input" type="name" name="name">
               </div>
               <div class="form-group col-lg-4">
                   <label class="form-control-label label-cont" for="form-group-input">Email</label>
-                  <input type="text" class="form-control" id="form-group-input" name="email">
+                  <input type="text" class="form-control" id="form-group-input" type="email" name="email">
               </div>
               <div class="form-group col-lg-4">
                   <label class="form-control-label label-cont" for="form-group-input">Purpose of Request</label>
@@ -149,7 +149,7 @@ Number of people in one group is limited to 8<br>
               </div>
               <div class="form-group col-lg-12">
                   <label class="form-control-label label-cont" for="form-group-input">Your Message</label>
-                  <textarea class="form-control" id="form-group-input" name="notes" rows="6"></textarea>
+                  <textarea class="form-control" id="form-group-input" type="text" name="notes" rows="6"></textarea>
               </div>
               <div class="form-group col-lg-12">
                 <div class="form-group mb-5"><button class="btn rounded-pill btn-lg btn-warning btn-outline-light mt-3" type="submit" value="Send">  Send message  </button></div>

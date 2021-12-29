@@ -824,13 +824,13 @@ h6{
   background-image: url("img/honey1.png");
   background-repeat: no-repeat;
   background-size: 600px;
-  background-position: 100% 30%;
+  background-position: 100% 10%;
   height: 600px;
 }
 @media screen and (min-width: 140px) and (max-width: 940px) {
   .honey1{
     background-size: 400px;
-    background-position: 50% 30%;
+    background-position: 50% 10%;
     height: 400px;
   }
   
@@ -838,7 +838,7 @@ h6{
   @media screen and (min-width: 540px) and (max-width: 980px) {
     .honey1{
       background-size: 500px;
-      background-position: 50% 30%;
+      background-position: 50% 10%;
       height: 500px;
     }
   }

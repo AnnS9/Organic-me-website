@@ -281,6 +281,7 @@ h6{
   background-size: 180px;
   background-position:right;
   background-attachment: fixed;
+  padding-top: 0%;
 }
 
 
@@ -483,9 +484,11 @@ h6{
     margin-bottom: 50pt;
     margin-top: 70pt; 
   }
-
+  #icon1{
+    margin-left: 10%;
+  }
 #icon2{
-  margin-top: 20%;
+  margin-left: 10%;
 }
 #icon6{
   margin-top: 15%;

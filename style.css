@@ -368,7 +368,7 @@ h6{
 	padding: 55px 0 0 0;
 	height: 110px;
   font-family: 'Raleway', sans-serif;
-  font-style: bold;
+  
   text-shadow: 
 		0 0 1px #fff, 
 		0 1px 2px rgba(0,0,0,0.3);
@@ -499,7 +499,7 @@ h6{
   
 }
 #gimg{
-  max-width: auto;
+  
   max-height: 620px;
   
   margin-left: 50%;
@@ -531,7 +531,7 @@ h6{
   }
   #gcourse{
     padding-bottom: 20%;
-    padding-right: auto;
+    
     top: 10%;
     left:0%;
     bottom: 10%; 
@@ -603,7 +603,7 @@ h6{
 }
 .hero-txt2{
   font-family: "Bree";
-  font-style: light;
+ 
   font-size: 58px;
 }
 #aboutinfo{

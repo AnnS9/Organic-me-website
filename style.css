@@ -244,6 +244,7 @@ h6{
 }
 .btn-warning{
  background-color:#DCB141 !important;
+ 
 }
 .btn-warning:hover{
   background-color: #5c5a5a !important;
@@ -445,7 +446,9 @@ h6{
     margin-top: 0px !important;
   }
  
-
+.btn-news{
+  margin-top: 0% !important;
+}
 .newsletter-subscribe form {
     justify-content: center
 }
@@ -890,10 +893,12 @@ h6{
   background-image: url("img/honey1.png");
   background-repeat: no-repeat;
   background-size: 600px;
-  background-position: 100% 10%;
+  background-position: 100% 40%;
   height: 600px;
+  margin-bottom: 10%;
+  
 }
-@media screen and (min-width: 140px) and (max-width: 940px) {
+@media screen and (min-width: 140px) and (max-width: 540px) {
   .honey1{
     background-size: 400px;
     background-position: 50% 10%;
@@ -901,10 +906,10 @@ h6{
   }
   
   }
-  @media screen and (min-width: 540px) and (max-width: 980px) {
+  @media screen and (min-width: 540px) and (max-width: 1080px) {
     .honey1{
-      background-size: 500px;
-      background-position: 50% 10%;
+      background-size: 400px;
+      background-position: 70% 10%;
       height: 500px;
     }
   }
@@ -1001,6 +1006,7 @@ h6{
   font-weight: 350;
   font-size: 55px;
 }
+
 #contact-map{
   background:#39403B;
     

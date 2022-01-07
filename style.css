@@ -57,7 +57,13 @@ li{
  .bg-dark{
    background-color: #2e2e2e !important;
  }
-
+ @media screen and (max-width: 580px) {
+  
+  #logo{
+    width: 55px !important;
+    height: 55px !important;
+  }
+ }
 .text-secondary{
     color: #737171 !important;
 }
@@ -189,7 +195,7 @@ h4{
   font-weight: 300;
   font-style: normal;
   font-size: 40px;
-  color: #dac934 !important;
+  color: #f3f2ea !important;
 }
 h5{
     font-family: Raleway; 
@@ -505,8 +511,10 @@ h6{
   #suptxt{
     
     margin-bottom: 50pt;
-    margin-top: 70pt; 
+    margin-top: 70pt;
+     
   }
+
   #icon1{
     margin-left: 10%;
   }
@@ -660,6 +668,7 @@ h6{
   bottom: 8px;
   left: 16px;
 }
+
 #supimg{
   position: relative;
   text-align: center;
@@ -671,13 +680,13 @@ h6{
   background-position: 95% 95%;;
   
 }
-.left-text {
+.right-text {
   position: absolute;
-  top: 40%;
-  left: 16%;
+  top: 5%;
+  right: 5%;
   font-family: Raleway; 
-  font-weight: 250;
-  font-size: 55px;
+  font-weight: 350;
+  font-size: 65px;
   color:#fff;
 
 }
@@ -698,7 +707,7 @@ h6{
 }
 
 .card{
-  background-color: #1D3011;
+  background-color: #595a58;
   min-height: 400px;
 }
 .card-text{
@@ -719,6 +728,9 @@ h6{
 }
 #button3{
   margin-top: 10%;
+}
+.btn-card{
+  background: #1a1806 !important;
 }
 .newstxt{
   font-size: 50px !important;

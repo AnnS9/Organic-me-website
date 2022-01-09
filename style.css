@@ -644,24 +644,26 @@ h6{
   font-family: "Raleway";
   font-size: 38px;
   font-weight: 400;
-  color: rgb(51, 51, 51);
+  color: rgb(245, 243, 243);
+  text-shadow: 1px 1px #969595;
 }
 @media screen and (max-width: 540px) {
   .hero-txt1{
     font-family: "Raleway";
     font-size: 18px;
-    padding-top: 50%;
+    
   }}
 .hero-txt2{
   font-family: "Bree";
   font-size: 68px;
   color: rgb(51, 51, 51);
+  text-shadow: 1px 1px #f0efef;
 }
 @media screen and (max-width: 540px) {
   .hero-txt2{
     font-family: "Raleway";
     font-size: 38px;
-    padding-top: 10%;
+    
     
   }}
 #aboutinfo{
@@ -723,9 +725,13 @@ h6{
 .supplier-h2{
   color: #dac934;
 }
+.card-txt{
+  font-family: 'Raleway';
+  font-size: 16px;
+  color: #fcfbf9;
+}
 .product-image {
 	transition: all 0.3s ease-out;
-	
 	position: relative;
 	overflow: hidden;
 	height: 100%;
@@ -736,13 +742,13 @@ h6{
 
 .info {
     background: rgba(27, 26, 26, 0.9);
-    font-family: 'Raleway';
     transition: all 0.3s ease-out;
     transform: translateX(-100%);
     position: absolute;
     line-height: 1.8;
     text-align: left;
-    padding-left: 20px;
+    padding-left: 0px;
+    overflow: hidden;
     cursor: no-drop;
     color: #FFF;
     height: 100%;
@@ -750,28 +756,47 @@ h6{
     left: 0;
     top: 0;
 }
-
+.product-title1{
+  font-family: 'Raleway';
+  font-size: 36px;
+  text-align: center;
+}
 
 .product-image:hover .info{transform: translateX(0);}
 .product-image:hover img {transition: all 0.3s ease-out;}
 .product-image:hover img {transform: scale(1.2, 1.2);}
+
+
+.info p {
+	color: #fff;
+	padding: 10px 5px;
+	margin: 0 30px;
+	font-size: 12px;
+	
+  text-align: center;
+}
+
+.info p a {
+	display: block;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+  text-align: center;
+}
 .btn-cont{
   font-family: Raleway;
   font-size: 12px; 
 }
-.card{
-  background-color: #060705;
-  min-height: 400px;
-}
-.card-text{
-  font-family: "Raleway";
-  color: #f6faf7;
-  font-size: 12px;
-  
-}
-.card-title{
-  font-family: Raleway;
-  font-size: 18px;
+
+#newsabout{
+  position: relative;
+  background-color: #b6caac;
+  padding: 50px;
 }
 @media screen and (min-width: 140px) and (max-width: 540px) {
 #newsabout{
@@ -830,16 +855,18 @@ margin-top:10%;
   background-image: url("img/bean.svg");
   background-repeat: no-repeat;
   background-size: 320px;
-  background-position: 90% 50%;
+  background-position: 90% 20%;
+  margin-top: 10%;
+  
   
 }
 #cafep{
   background-image: url("img/bean1.svg");
   background-repeat: no-repeat;
   background-size: 320px;
-  background-position: 100% 50%;
-  padding-top: 150px !important;
-  padding-bottom: 150px !important;
+  background-position: 100% 10%;
+  margin-top: 10%;
+  
 }
 .text-left-cafe{
   position: absolute;
@@ -951,9 +978,11 @@ margin-top:10%;
   padding-right: 20%;
 }
 #shop-product{
-  background:  url("img/flower4.svg"), #39403B ;
+  
   background-position: 10% 40%;
   background-repeat: no-repeat;
+  background-position: fixed;
+  
   
 }
 @media screen and (min-width: 140px) and (max-width: 940px) {
@@ -969,7 +998,7 @@ margin-top:10%;
 }
 .prod-h2{
   font-weight: 400;
-  color: rgb(221, 220, 220);
+  color: #737171;
 }
 .honey1{
   background-image: url("img/honey1.png");
@@ -1126,7 +1155,7 @@ margin-top:10%;
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: rgb(11, 37, 10); /* Set a background color */
+  background-color: transparent; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 5px; /* Some padding */
@@ -1135,8 +1164,33 @@ margin-top:10%;
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  color: #060705; /* Add a dark-grey background on hover */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

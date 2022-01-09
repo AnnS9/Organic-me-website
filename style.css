@@ -626,14 +626,7 @@ h6{
   overflow: hidden;
 }
 
-.centered {
-  position: absolute;
-  top: 25%;
-  left: 52%;
-  transform: translate(-50%, -50%);
- 
-  color: #09531c !important;
-}
+
 @media screen and (max-width: 540px) {
   #logoicon{
    height: 25px !important;
@@ -881,10 +874,18 @@ margin-top:10%;
   margin-top: 10%;
   
 }
+.centered {
+  position: absolute;
+  top: 15%;
+  left:25%;
+  transform: translate(-50%, -50%);
+ 
+  color: #09531c !important;
+}
 .text-left-cafe{
   position: absolute;
-  top: 2%;
-  left: 22%;
+  top: 15%;
+  left: 25%;
   transform: translate(-50%, -50%);
  
   
@@ -894,7 +895,7 @@ margin-top:10%;
   font-size: 68px;
   font-weight: 300;
   color:#f6faf7;
-  margin-top: 150%;
+  
  }
  .cafe-txt2{
   font-family: "Bree";
@@ -909,8 +910,7 @@ margin-top:10%;
   font-size: 58px;
   font-weight: 300;
   color:#f6faf7;
-  margin-top: 30%;
-  margin-right: -80%;
+  
  }
  .cafe-txt4{
   font-family: "Raleway";
@@ -925,8 +925,7 @@ margin-top:10%;
   font-size: 58px;
   font-weight: 300;
   color:#f6faf7;
-  margin-top: 50%;
-  margin-right: -80%;
+  
  }
  @media screen and (min-width: 140px) and (max-width: 940px) {
 .cafe-txt1, .cafe-txt2, .cafe-txt3, .cafe-txt4, .cafe-txt5{

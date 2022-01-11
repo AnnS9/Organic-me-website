@@ -340,52 +340,7 @@ h6{
   
 }
 
-.ch-img-4{
-  background-image: url(img/granola.jpg);
-  width: 280px;
-	height: 280px;
-}
-.ch-img-5{
-  background-image: url(img/toast.jpg);
-  width: 280px;
-	height: 280px;
 
-}
-.ch-img-6{
-  background-image: url(img/cheese.jpg);
-  width: 280px;
-	height: 280px;
-}
-.ch-img-7{
-  background-image: url(img/shopp1.jpg);
-  width: 280px;
-	height: 280px;
-}
-.ch-img-8{
-  background-image: url(img/shopp2.jpg);
-  width: 280px;
-	height: 280px;
-}
-.ch-img-9{
-  background-image: url(img/shopp3.jpg);
-  width: 280px;
-	height: 280px;
-}
-.ch-img-10{
-  background-image: url(img/shopp4.jpg);
-  width: 280px;
-	height: 280px;
-}
-.ch-img-11{
-  background-image: url(img/shopp5.jpg);
-  width: 280px;
-	height: 280px;
-}
-.ch-img-12{
-  background-image: url(img/shopp6.jpg);
-  width: 280px;
-	height: 280px;
-}
 .ch-info {
 	position: absolute;
 	width: 100%;

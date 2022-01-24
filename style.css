@@ -581,19 +581,29 @@ h6{
   overflow: hidden;
 }
 
+.hero-text-fooldal {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
+}
 @media screen and (max-width: 540px) {
   #logoicon{
    height: 25px !important;
    width: 25px !important;
   }
   }
+
 .hero-txt1{
+  text-align: center;
   font-family: "Raleway";
   font-size: 38px;
   font-weight: 400;
   color: rgb(245, 243, 243);
   text-shadow: 1px 1px #969595;
+  
 }
 @media screen and (max-width: 540px) {
   .hero-txt1{

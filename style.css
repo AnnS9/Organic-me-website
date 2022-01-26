@@ -782,6 +782,9 @@ h6{
 .btn-card{
   background: #1a1806 !important;
 }
+#button1{
+  color: white;
+}
 .newstxt{
   font-size: 50px !important;
 }

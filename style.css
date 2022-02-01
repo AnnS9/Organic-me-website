@@ -65,7 +65,7 @@ li{
   }
  }
 .text-secondary{
-    color: #737171 !important;
+    color: #5a5959 !important;
 }
 
 
@@ -183,12 +183,20 @@ h1{
 h2{
     font-family: Raleway; 
     font-weight: 250;
-    font-size: 55px;   
+    font-size: 55px; 
+    color: #666666;  
+}
+.home-h2{
+  font-family: Raleway; 
+    font-weight: 250;
+    font-size: 55px; 
+    color: #b4b3b3; 
 }
 h3{
   font-family: Raleway; 
   font-weight: 400;
   font-size: 45px;
+  color: #a5a4a4; 
 }
 h4{
   font-family: bree, sans-serif;
@@ -219,7 +227,7 @@ h6{
 }
 .head-p{
   font-family: 'Raleway', sans-serif;
-  color: #727270;
+  color: #4b4b4b;
   font-weight: 450;
   font-size: 25px;
 }
@@ -238,7 +246,7 @@ h6{
 .welcome-p{
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  color: #969e98 !important;
+  color: #7a7a7a !important;
   
 }
 .gard-p{

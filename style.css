@@ -249,11 +249,11 @@ h3{
   color: #a5a4a4; 
 }
 h4{
-  font-family: bree, sans-serif;
+  font-family: raleway;
   font-weight: 300;
   font-style: normal;
   font-size: 40px;
-  color: #f3f2ea !important;
+  color: #f8f8f8 !important;
 }
 h5{
     font-family: Raleway; 
@@ -549,86 +549,18 @@ h6{
 #icon6{
   margin-top: 15%;
 } 
-#course {
-  background-color: #f8f8f8;
-  position: relative;
+
+#gardening{
+  background-image: url(img/greens.jpg);
+  background-size: cover;
+ 
+  background-position:left;
   
 }
-#gimg{
-  
-  max-height: 620px;
-  
-  margin-left: 50%;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-/* Bottom right text */
-#gcourse {
-  position: absolute;
-  top: 0%;
-  left: 20%;
-  background-color: rgba(0, 0, 0, 0.5);;
+.course-p{
   color: white;
-  padding-left: 20px;
-  padding-right: 150px;
-  padding-top: 80px;
-  padding-bottom: 0px;
-
-}
-
-/* For Mobile */
-@media screen and (max-width: 540px) {
-  #gimg {
-      width: 390px;
-      margin-left:0%;
-      overflow: hidden;
-
-     
-  }
-  #gcourse{
-    padding-bottom: 20%;
-    
-    top: 0%;
-    left:0%;
-    bottom: 0%; 
-    
-  }
-  .gard-p{
-    font-size: 15px;
-  }
-  
-}
-
-/* For Tablets */
-@media screen and (min-width: 540px) and (max-width: 780px) {
-  #gimg {
-    width: 490px;
-    margin-left: 35%;
-   
-  }
-  #gcourse{
-    padding-bottom: 0%;
-    top: 0%;
-    left:0%;
-    bottom: 0%;
-    padding-right: 50px; 
-  }
-}
-@media screen and (max-width: 2800px) and (min-width: 780px) {
-  #gimg {
-    height: 900px;
-    width: auto;
-    margin-left: 50%;
-   
-  }
-  #gcourse{
-    
-    top: 20%;
-    left:20%;
-    bottom: 10%;
-    padding-bottom: 0%; 
-    padding-right: 280px !important;
-  }
+  font-size: larger;
+  font-family: bree, sans-serif;
 }
 
 .hero-img1 {

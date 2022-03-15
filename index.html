@@ -15,7 +15,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+<!--Spinner load--> 
+<div class="spinner-wrapper">
+    <div class="spinner"></div>
+</div>
+<div class="main-content">   
 <!--NAVBAR-->    
     
     <nav class="navbar navbar-expand-lg menu shadow fs-4 bg-warning navbar-dark ">
@@ -294,7 +298,7 @@ src="https://www.youtube-nocookie.com/embed/XHv8Fbcbm18?playlist=XHv8Fbcbm18&aut
     
   </div>
 </div>
-
+</div>
   <!-- START THE COPYRIGHT INFO  -->
   <div class="footer-bottom pt-2 pb-2">
     <div class="container">
@@ -335,15 +339,17 @@ src="https://www.youtube-nocookie.com/embed/XHv8Fbcbm18?playlist=XHv8Fbcbm18&aut
 
 
 
+
+
+
 <script>
+     let spinnerWrapper = document.querySelector('.spinner-wrapper');
 
-
-var myModal = document.getElementById('myModal')
-  var myInput = document.getElementById('myInput')
-  
-  myModal.addEventListener('shown.bs.modal', function () {
-    myInput.focus()
-  })</script>
+window.addEventListener('load', function () {
+    // spinnerWrapper.style.display = 'none';
+    spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+});
+</script>
 <script>
   //Get the button:
 mybutton = document.getElementById("myBtn");
